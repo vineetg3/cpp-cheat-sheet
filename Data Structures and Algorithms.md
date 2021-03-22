@@ -448,11 +448,11 @@ q.pop();
 * Ex: CPU scheduling (smallest job first, system/user priority)
 * Ex: Medical emergencies (gunshot wound vs. broken arm)
 * Some member functions of priority queues are:
-*empty(): Returns true if the priority queue is empty and false if the priority queue has at least one element. Its time complexity is O(1).
-*pop(): Removes the largest element from the priority queue. Its time complexity is O(logN) where N is the size of the priority queue.
-*push(): Inserts a new element in the priority queue. Its time complexity is O(logN) where N is the size of the priority queue.
-*size(): Returns the number of element in the priority queue. Its time complexity is O(1).
-*top(): Returns a reference to the largest element in the priority queue. Its time complexity is O(1).
+* empty(): Returns true if the priority queue is empty and false if the priority queue has at least one element. Its time complexity is O(1).
+* pop(): Removes the largest element from the priority queue. Its time complexity is O(logN) where N is the size of the priority queue.
+* push(): Inserts a new element in the priority queue. Its time complexity is O(logN) where N is the size of the priority queue.
+* size(): Returns the number of element in the priority queue. Its time complexity is O(1).
+* top(): Returns a reference to the largest element in the priority queue. Its time complexity is O(1).
 
 Elements are popped from the "back" of the specific container, which is known as the top of the priority queue.
 
@@ -479,7 +479,7 @@ unsigned int size = p.size();
 // Remove
 p.pop();
 ```
-*Custom Comparator example
+* Custom Comparator example
 ```
 // program in c++ to use priority_queue with structure
 
@@ -539,6 +539,14 @@ int main()
 	}
 	return 0;
 }
+```
+* Output
+```
+33 6.1
+20 6
+23 5.6
+30 5.5
+25 5
 ```
 -------------------------------------------------------
 ### 1.10 Heap `std::priority_queue`
